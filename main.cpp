@@ -15,6 +15,7 @@ int main() {
     while(n--){
         int r, l;
         cin>>l>>r;
+        // do not put (r-1) - (l-1) it is not the same
         cout<<dp[r-1]-dp[l-1]<<endl;
     }
 }
